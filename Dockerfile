@@ -1,5 +1,5 @@
 FROM java:7
-COPY HelloWorld2.java /
-RUN javac HelloWorld2.java
+COPY HelloWorld.java /
+RUN javac HelloWorld.java
 
-ENTRYPOINT ["java", "HelloWorld2"]
+ENTRYPOINT ["java", "HelloWorld"]
